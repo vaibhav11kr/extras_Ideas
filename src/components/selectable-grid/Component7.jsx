@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Component.css"
 import SelectableGrid from './SelectableGrid';
-const Component = () => {
+const Component7 = () => {
     const rows = 10;
     const cols = 15;
   return (
@@ -12,4 +12,4 @@ const Component = () => {
   )
 }
 
-export default Component;
+export default Component7;

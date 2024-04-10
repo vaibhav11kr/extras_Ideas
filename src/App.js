@@ -5,7 +5,10 @@ import Component3 from './components/quizApp/Component3';
 import Component4 from './components/fetchdata/Component4';
 import Component5 from './components/jobposting/Component5';
 import Component6 from './components/currencyconverter/Component6';
-import Component from './components/selectable-grid/Component';
+import Component7 from './components/selectable-grid/Component7';
+import Component8 from './components/employeemanagement/Component8';
+import Itemswap from './components/itemswap/Itemswap';
+
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
       {/* <Component4/> */}
       {/* <Component5 /> */}
       {/* <Component6/> */}
-      <Component />
+      {/* <Component7 /> */}
+      {/* <Component8 /> */}
+      <Itemswap />
     </div>
   );
 }
