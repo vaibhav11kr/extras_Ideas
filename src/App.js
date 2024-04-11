@@ -8,6 +8,7 @@ import Component6 from './components/currencyconverter/Component6';
 import Component7 from './components/selectable-grid/Component7';
 import Component8 from './components/employeemanagement/Component8';
 import Itemswap from './components/itemswap/Itemswap';
+import FetchMessage from './components/inputbasedfetching/FetchMessage';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <Component6/> */}
       {/* <Component7 /> */}
       {/* <Component8 /> */}
-      <Itemswap />
+      {/* <Itemswap /> */}
+      <FetchMessage />
     </div>
   );
 }
