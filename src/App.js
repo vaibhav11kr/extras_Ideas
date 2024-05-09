@@ -11,7 +11,8 @@ import Modal from './components/modal/Modal';
 // import Itemswap from './components/itemswap/Itemswap';
 // import FetchMessage from './components/inputbasedfetching/FetchMessage';
 // import Pagination from './components/pagination/Pagination';
-import StarRating from './components/startrating/StarRating';
+// import StarRating from './components/startrating/StarRating';
+import Todo from './components/todo/Todo';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <FetchMessage /> */}
       {/* <Pagination /> */}
       {/* <StarRating limit = {5} initialRating = {2}/> */}
-      <Modal />
+      {/* <Modal /> */}
+      <Todo />
     </div>
   );
 }

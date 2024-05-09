@@ -1,0 +1,46 @@
+.todolist-main{
+    height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.list{
+    /* list-style: none; */
+    width: 100%;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgb(188, 185, 181);
+    height: 50px;
+    border-top: 2px solid white;
+    padding: 10px;
+    position: relative;
+}
+.list-item p{
+    position: absolute;
+    left: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    color: brown;
+}
+.list-item .del{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: brown;
+
+}
+.list-item .mark{
+    position: absolute;
+    right: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: brown;
+
+}
+
